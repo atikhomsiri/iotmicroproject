@@ -4,6 +4,6 @@ const app = express();
 app.set("view engine","ejs");
 
 const iotRoute = require("./routes/iotRoute");
-app.use("/iot",iotRoute);
+app.use("/",iotRoute);
 
-app.listen("8001");
+app.listen("3000");
